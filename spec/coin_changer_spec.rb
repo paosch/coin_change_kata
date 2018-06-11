@@ -8,5 +8,13 @@ describe Codechanger do
     it 'only accepts integers as an argument' do
       expect { subject.change('thrirty pounds') }.to raise_error('Not an integer')
     end
+
+    it 'accepts 1000p and returns an array of 5 2 pound coins' do
+      expect(subject.change(1000)).to eq [200, 200, 200, 200, 200]
+    end
+
+    it 'accepts 2500p and returns an array of 5 2 pound coins' do
+      expect(subject.change(2500)).to eq [200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 200, 100]
+    end
   end
 end

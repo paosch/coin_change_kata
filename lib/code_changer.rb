@@ -6,5 +6,13 @@ class Codechanger
 
   def change(amount)
     raise 'Not an integer' unless amount.is_a? Integer
+    coin_holder = []
+    @coin_array.each do |coin|
+      (amount / coin).times do
+        coin_holder << coin
+        amount -= coin
+      end
+    end
+    coin_holder
   end
 end
