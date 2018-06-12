@@ -1,4 +1,4 @@
-class Codechanger
+class Coinchanger
   attr_reader :coin_hash
   def initialize
     @coin_hash = { 200 => '£2', 100 => '£1', 50 => '50p', 20 => '20p',
