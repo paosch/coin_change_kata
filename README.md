@@ -3,6 +3,8 @@ Given an amount of money (in pence), the program returns an array of the smalles
 
 ## Tests
 
-
+![screen shot 2018-06-12 at 19 37 50](https://user-images.githubusercontent.com/33669463/41310454-740c436a-6e79-11e8-89c1-20f7499786df.png)
 
 ## IRB snippet
+
+![screen shot 2018-06-12 at 19 44 32](https://user-images.githubusercontent.com/33669463/41310462-782d768a-6e79-11e8-9ccb-3a07ddc9a183.png)
