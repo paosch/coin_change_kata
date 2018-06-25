@@ -1,4 +1,6 @@
-# Coin change kata
+# Coin change kata     
+[![Build Status](https://travis-ci.com/paosch/coin_change_kata.svg?branch=master)](https://travis-ci.com/paosch/coin_change_kata)
+
 Given an amount of money (in pence), the program returns an array of the smallest number of coins possible that make up that amount. A kata solved by Alfie and Paola to practice TDD and Ruby.
 
 ## Tests
